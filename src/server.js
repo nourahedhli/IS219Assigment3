@@ -7,18 +7,18 @@ app.use(express.static('docs'));
 open("http://localhost:9080");
 
 
-app.get('/api/v1/cities', function(req, res) {
-    const mysql = require('mysql')
+app.get('/api/v1/grades', function(req, res) {
+    const mysql = require('mysql');
     const connection = mysql.createConnection({
         host: 'localhost',
         port: '32000',
         user: 'root',
         password: 'root',
-        database: 'citiesData'
+        database: 'gradesData'
     });
     connection.connect();
 
-    connection.query('SELECT * FROM tblCitiesImport', function (err, rows, fields) {
+    connection.query('SELECT * FROM gradesTable', function (err, rows, fields) {
         if (err) throw err;
         res.json({ "data": rows});
     })

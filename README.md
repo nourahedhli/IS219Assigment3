@@ -1,5 +1,25 @@
 # API Introduction and Setup an API Server with MySQL and Express
 
+#
+
+## ScreenShots For the Project 
+
+### a. The project showing that you can view YOUR data tables in WebStorm
+![data tables in WebStorm](screenshots/gradesTableWebstorm.png)
+
+#
+### b. YOUR project running correctly in the browser displaying a data table
+![data tables in WebStorm](screenshots/BrowserTable.png)
+#
+
+### c. A screen shot of the browser console showing the XHR network request made from the browser when the page loads.
+![data tables in WebStorm](screenshots/NetworkXHR.png)
+#
+
+### d. A screen shot of Postman and YOUR data returned from the project.
+![data tables in WebStorm](screenshots/PostmanData.png)
+#
+
 ## Overview
 
 In this project you will need to create a REST api and display the data in a jQuery Datatable.
